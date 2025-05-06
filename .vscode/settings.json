@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "lcd.h": "c",
+        "eeprom.h": "c",
+        "project.h": "c"
+    }
+}
