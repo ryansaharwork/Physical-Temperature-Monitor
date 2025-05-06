@@ -32,6 +32,6 @@ For demonstration, **data is self-looped** — the device sends and receives its
 - Tri-state buffer + resistors/wires/breadboard  
 
 ## 🚀 Setup
-1. **Wire the components** according to the circuit diagram.  
+1. **Wire the components** (look at video demo for reference).  
 2. **Upload the code** to your Arduino Uno.  
 3. **Open Serial Monitor** to observe communication.  
