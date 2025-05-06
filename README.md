@@ -1,4 +1,4 @@
-# Temperature Monitor Project 🌡️🧠
+# Temperature Monitor Project 
 
 A real-time **temperature monitoring system** built with Arduino. It displays current temperature, adjusts settings, and shows status using LEDs, a servo, and an LCD screen.
 
