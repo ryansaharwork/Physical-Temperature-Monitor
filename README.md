@@ -5,23 +5,23 @@ A real-time **temperature monitoring system** built with Arduino. It displays cu
 ![Temperature Monitor Demo](spedupdemo.gif)
 
 ## ⚙️ Features
-- **Live temperature readings** using DS18B20 sensor 📈  
-- **LCD display** shows temperature + thresholds 🖥️  
-- **Rotary encoder** to adjust min & max temperature limits 🔁  
+- **Live temperature readings** using DS18B20 sensor  
+- **LCD display** shows temperature + thresholds 
+- **Rotary encoder** to adjust min & max temperature limits   
 - **RGB LED indicators** (Red = Hot 🔴, Blue = Cold 🔵, Green = Normal 🟢)  
-- **Servo motor dial** shows temp status with movement ➰  
+- **Servo motor dial** shows temp status with movement  
 - **EEPROM** saves settings after power-off 💾  
-- **Serial communication** for sending/receiving data over UART 🔌  
+- **Serial communication** for sending/receiving data over UART   
 
-## 🔁 Demo Mode
+## Demo Mode
 For demonstration, **data is self-looped** — the device sends and receives its own data to show communication in action.
 
-## 🧪 How It Works
+## How It Works
 - **Turn the encoder** to set temperature thresholds.  
 - **Watch the display**, LED color, and servo respond in real-time.  
 - **Press the SEND button** to transmit temperature data.  
 
-## 🔧 Hardware Used
+## Hardware Used
 - Arduino Uno R3  
 - DS18B20 Temp Sensor  
 - LCD Keypad Shield  
@@ -31,7 +31,7 @@ For demonstration, **data is self-looped** — the device sends and receives its
 - Push-button switch  
 - Tri-state buffer + resistors/wires/breadboard  
 
-## 🚀 Setup
+## Setup
 1. **Wire the components** (see demo GIF for reference).  
 2. **Upload the code** to your Arduino Uno.  
 3. **Open Serial Monitor** to observe communication.  
