@@ -2,7 +2,7 @@
 
 A real-time **temperature monitoring system** built with Arduino. It displays current temperature, adjusts settings, and shows status using LEDs, a servo, and an LCD screen.
 
-![Temperature Monitor Demo](demo.gif)
+🎬 [Watch Demo Video](demo.mp4)
 
 ## ⚙️ Features
 - **Live temperature readings** using DS18B20 sensor 📈  
@@ -32,6 +32,6 @@ For demonstration, **data is self-looped** — the device sends and receives its
 - Tri-state buffer + resistors/wires/breadboard  
 
 ## 🚀 Setup
-1. **Wire the components** (look at video demo for reference).  
+1. **Wire the components** (see demo video for reference).  
 2. **Upload the code** to your Arduino Uno.  
 3. **Open Serial Monitor** to observe communication.  
