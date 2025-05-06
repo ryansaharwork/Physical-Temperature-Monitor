@@ -1,57 +1,37 @@
-Temperature Monitor Project (EE 109 – Spring 2025)
-Overview
-This project is a temperature monitoring system built using an Arduino Uno and a digital temperature sensor. It displays live temperature readings on an LCD screen, indicates status using LEDs and a servo dial, and supports sending and receiving data through serial communication.
+# Temperature Monitor Project 🌡️🧠
 
-Features
-Real-Time Temperature Display: Uses a DS18B20 digital sensor to read the ambient temperature.
+A real-time **temperature monitoring system** built with Arduino. It displays current temperature, adjusts settings, and shows status using LEDs, a servo, and an LCD screen.
 
-LCD Interface: Shows current temperature and user-adjustable settings.
+![Temperature Monitor Demo](demo.gif)
 
-LED Indicators:
+## ⚙️ Features
+- **Live temperature readings** using DS18B20 sensor 📈  
+- **LCD display** shows temperature + thresholds 🖥️  
+- **Rotary encoder** to adjust min & max temperature limits 🔁  
+- **RGB LED indicators** (Red = Hot 🔴, Blue = Cold 🔵, Green = Normal 🟢)  
+- **Servo motor dial** shows temp status with movement ➰  
+- **EEPROM** saves settings after power-off 💾  
+- **Serial communication** for sending/receiving data over UART 🔌  
 
-Red: Temperature is above the high threshold.
+## 🔁 Demo Mode
+For demonstration, **data is self-looped** — the device sends and receives its own data to show communication in action.
 
-Blue: Temperature is below the low threshold.
+## 🧪 How It Works
+- **Turn the encoder** to set temperature thresholds.  
+- **Watch the display**, LED color, and servo respond in real-time.  
+- **Press the SEND button** to transmit temperature data.  
 
-Green: Temperature is within the acceptable range (brightness increases with temperature).
+## 🔧 Hardware Used
+- Arduino Uno R3  
+- DS18B20 Temp Sensor  
+- LCD Keypad Shield  
+- RGB LED (common anode)  
+- Rotary Encoder (with push-button)  
+- Servo Motor  
+- Push-button switch  
+- Tri-state buffer + resistors/wires/breadboard  
 
-Rotary Encoder Control: Adjusts low and high temperature thresholds.
-
-EEPROM Storage: Saves threshold settings even after power-off.
-
-Servo Dial: Moves based on temperature to visually represent status.
-
-Serial Communication: Transmits and receives temperature and setting data.
-
-Hardware Used
-Arduino Uno R3
-
-DS18B20 Temperature Sensor
-
-LCD Shield
-
-Common anode RGB LED
-
-Rotary Encoder (with push-button)
-
-Servo Motor
-
-Push-button switch (for sending data)
-
-Tri-state buffer (for UART control)
-
-Resistors, wires, and breadboard
-
-Operation
-Adjust Settings: Use the encoder to set desired low and high temperature thresholds.
-
-Monitor Temperature: Watch the LCD, LED, and servo dial update in real-time.
-
-Send/Receive Data: Press the send button to transmit current data via UART.
-
-Notes
-The project is set up to self-loop serial communication for demonstration purposes. This allows users to see both sending and receiving functions in action on a single device.
-
-Demo
-A short demonstration video is included below showing the system in action.
-(Add your video link or embed it here once it's ready.)
+## 🚀 Setup
+1. **Wire the components** according to the circuit diagram.  
+2. **Upload the code** to your Arduino Uno.  
+3. **Open Serial Monitor** to observe communication.  
