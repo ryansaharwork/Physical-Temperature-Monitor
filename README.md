@@ -29,7 +29,8 @@ For demonstration, **data is self-looped** — the device sends and receives its
 - Rotary Encoder (with push-button)  
 - Servo Motor  
 - Push-button switch  
-- Tri-state buffer + resistors/wires/breadboard  
+- Tri-state buffer + resistors/wires/breadboard
+
 
 ## Setup
 1. **Wire the components** (see demo GIF for reference).  
